@@ -1,0 +1,131 @@
+{
+  "lblCumulativeTime": "累計時間",
+  "time_to_next_update_labal": "次の判定まで:",
+  "TargetTime_label": "目標時間",
+  "count_to_next_save_text": "次のセーブまで:",
+  "number_of_files": "ファイル数:",
+  "penalty_rate_text": "ペナルティ倍率",
+  "target_extension_text": "対象拡張子:",
+  "MainFormTitle": "とにかく書かせるソフト",
+  "labelTargetTime": "目標時間:",
+  "labelHours": "時間",
+  "labelMinutes": "分",
+  "labelSeconds": "秒",
+  "labelUpdateInterval": "判定間隔:",
+  "labelSaveInterval": "セーブ間隔:",
+  "labelSaveIntervalUnit": "回の判定",
+  "labelPenaltyMultiplier": "ペナルティ倍率:",
+  "labelPenaltyMultiplierlUnit": "倍",
+  "labelWorkFolder": "作業フォルダ:",
+  "buttonSelectFolder": "選択",
+  "labelFileExtension": "作業ファイルの拡張子:",
+  "buttonOk": "決定",
+  "messageboxPlaceholder": "報酬テキストを入力(パスワードなど)",
+  "labelDisclaimer": "使用中に発生するいかなる問題についても開発者は責任を負いません。",
+  "buttonCreateZip": "パスワード付きZIP作成",
+  "open_advanced_settings":"詳細設定",
+
+  "formTitle": "設定フォーム",
+
+  "advanced_setting_json_error": "advanced_setting.json構文エラー",
+  "unexpected_error_prefix": "予期しないエラーが発生しました: ",
+  "error_including_software_folder": "エラーが発生しました、作業フォルダ内にこのソフトが含まれないようにしてください",
+  "error": "エラー",
+
+  "japanese_text_strict_mode": "日本語",
+  "english_text_strict_mode": "english",
+  "text_strict_mode_on": "テキスト厳格モードオン",
+
+  "lblCumulativeTimePrefix": "累計時間:",
+  "save_done": "セーブ済み:",
+  "lblTargetTimePrefix": "目標時間:",
+
+  "target_extension_text_prefix": "作業ファイルの拡張子:",
+  "file_count_prefix": "ファイル数:",
+  "count_to_next_save_text_always": "常時セーブ",
+  "count_to_next_save_text_prefix": "次のセーブまで後",
+  "count_to_next_save_text_suffix": "回の更新が必要",
+  "hide_text_prefix":"約",
+  "penalty_rate_text_prefix": "ペナルティ倍率",
+
+  "arrived_targettime": "目標時間に到達しました、報酬テキストはrewordtext{0}.txtとしても出力されています",
+  "arrived_targettime_title": "目標到達",
+
+  "arrived_targettime_spread": "目標時間を達成しました! Xでシェアしますか?",
+  "arrived_targettime_spread_denied": "邪魔な場合は詳細設定で”作業完了時にXでシェア”をオフにしてください",
+  "X_message":"作業しました%0D%0A%23とにかく書かせるソフト++%23WriteFroce",
+
+  "time_to_next_judgement_prefix": "次の判定まで",
+
+  "restart_button": "リスタート",
+
+  "error_occured": "エラーが発生しました: {0}",
+
+  "select_folder_description": "作業フォルダを選択してください。",
+
+  "zip_or_file_question": "フォルダを圧縮するには「はい」、ファイルを圧縮するには「いいえ」をクリックしてください。",
+  "option_title": "選択オプション",
+
+  "folder_dialog_description": "フォルダを選択してください(巨大なフォルダの場合は時間がかかります)",
+
+  "file_dialog_title": "ファイルを選択してください(複数選択可能)",
+
+  "select_folder_empty":"エラー: 空のフォルダは指定出来ません",
+
+  "password_input_prompt": "ZIPファイルのパスワードを入力してください",
+  "password_input_title": "パスワード入力",
+  "no_password_error": "パスワードが入力されていません。処理を中止します。",
+
+  "password_prefix": "のパスワード:",
+  "original_file_location": "元の保存場所:\r\n",
+  "zipfile_created": "パスワード付きZIPファイルを作成しました。\n保存先: ",
+  "success": "成功",
+
+  "including_software_folder": "エラーが発生しました、作業フォルダ内にこのソフトが含まれないようにしてください",
+  "folder_not_found_prefix": "指定されたフォルダが存在しません: ",
+  "destination_folder_exists_prefix": "コピー先フォルダが既に存在します。削除します: ",
+
+  "target_time_at_least_1sec": "目標時間は1秒以上です",
+  "update_interval_at_least_1sec": "判定間隔は1秒以上です",
+  "penalty_invalid": "ペナルティ倍率は0以上の数です",
+  "reward_text_empty": "報酬テキストを入力してください",
+  "work_folder_empty": "作業フォルダのパスを入力してください",
+  "exts_empty": "対象の拡張子を入力してください( , で区切る)",
+
+  "delete_original_prompt": "ZIP化したファイルの元ファイルを削除しますか?(非推奨)",
+  "delete_option": "選択オプション",
+  "delete_warning": "誤って削除しても復元出来ません、本当に削除しますか?",
+  "delete_failed_prefix": "以下のパスは削除できませんでした:\n",
+  "delete_failed_title": "削除失敗",
+  "delete_done": "すべてのファイルとフォルダが正常に削除されました。",
+  "delete_done_title": "完了",
+
+  "advanced_labelLanguage": "ソフトの表示言語",
+  "advanced_comboBoxLanguage_jp_item": "日本語",
+  "advanced_comboBoxLanguage_en_item": "English",
+  "advanced_labelXShare": "作業完了時にXでシェア",
+  "advanced_checkBoxXShare": "ON / OFF",
+  "advanced_labelSaveAlarm": "セーブ時音で通知",
+  "advanced_checkBoxSaveAlarm": "ON / OFF",
+  "advanced_labelHideText": "時間経過を隠す:",
+  "advanced_checkBoxHideText": "ON / OFF",
+  "advanced_labelPreventExit": "ソフト終了の防止",
+  "advanced_checkBoxPreventExit": "ON / OFF",
+  "advanced_groupBoxStrictText": "厳格モード関連の設定",
+  "advanced_labelSelectStrictLanguage": "文章厳格モード",
+  "advanced_comboBoxSelectStrictLanguage_disable_item": "無効",
+  "advanced_comboBoxSelectStrictLanguage_jp_item": "日本語",
+  "advanced_comboBoxSelectStrictLanguage_en_item": "英語",
+  "advanced_labelMinInsertedChars": "最小文字/単語数",
+  "advanced_labelMinCharTypes": "最小文字/単語種類",
+  "advanced_labelHistoryLength": "比較する過去の変更の数",
+  "advanced_labelSimilarityThreshold": "コピペ判定閾値",
+  "advanced_checkBoxStrictActive": "ON / OFF",
+  "advanced_labelStrictActive": "厳格モードの有効化",
+  "advanced_labelDeleteOriginal": "ZIP元ファイル削除",
+  "advanced_checkBoxDeleteOriginal": "ON / OFF",
+  "advanced_buttonOK_adv": "決定",
+  "advanced_formTitle": "Advanced Settings",
+
+  "SimilarityThreshold_LT_0_Message":"閾値は0以上の数字です"
+}

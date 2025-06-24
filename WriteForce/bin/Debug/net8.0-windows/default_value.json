@@ -1,0 +1,15 @@
+{
+  "targetTime": {
+    "hours": 0,
+    "minutes": 0,
+    "seconds": 2
+  },
+  "updateInterval": {
+    "minutes": 0,
+    "seconds": 1
+  },
+  "save_Interval": 1,
+  "penalty_rate": 0.3,
+  "workingFolderPath": "C:\\Users\\Public\\Documents",
+  "target_extensions_joind": "txt,py,cs"
+}

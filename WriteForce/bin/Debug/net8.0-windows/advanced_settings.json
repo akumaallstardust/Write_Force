@@ -1,0 +1,18 @@
+{
+  "language": "english",
+  "x_shere_message": false,
+  "save_alarm": true,
+  "debug": false,
+  "hide_text": false,
+  "prevent_exit": false,
+  "strict_text": {
+    "active": true,
+    "min_number_of_inserted_characters": 1,
+    "min_char_types": 1,
+    "history_length": 0.0,
+    "similarityThreshold": 0.6,
+    "english_only": true,
+    "japanese_only": false
+  },
+  "delete_originalFile": true
+}
